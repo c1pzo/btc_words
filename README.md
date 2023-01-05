@@ -52,7 +52,7 @@ git clone https://github.com/c1pzo/btc_words.git cd btc_words && tmux new -s bip
 
 
 # Run
-
+```
 (base) C:\anaconda3>python bip44_English_words_mcpu.py
 [+] Starting.........Wait.....
 [+] Loaded 256 address from file: btc_address.txt
@@ -111,6 +111,7 @@ Starting thread:  0
 [+] Total Keys Checked : 10155  [ Speed : 916.69 Keys/s ]  Current words: thumb neither twenty claim ethics ice check coast near away lawn scorpion
 [+] Total Keys Checked : 10376  [ Speed : 914.74 Keys/s ]  Current words: tide test approve elite slice cake scrap palace intact drastic hurt prevent
 - ![#c5f015] [+] Total Keys Checked : 10492  [ Speed : 916.79 Keys/s ]  Current words: panther mixture candy fitness unable report find moment distance dose usual rhythm
+
 ```
 # Tips  @author: iceland2k14
 ```
