@@ -11,7 +11,7 @@ cores=4
 entropy_bits = 128                      # [128, 160, 192, 224, 256]
 derivation_total_path_to_check = 1      # default = 1
 ```
-_entropy_bits_to_mnemonic_ function can be modified if any other language words are needed. Currenly the default is English Words only.
+_entropy_bits_to_mnemonic_ function can be modified on other language words by removing # in bip44_words_mcpu.py. Currenly the default is English Words only.
 
 # Run
 ```
