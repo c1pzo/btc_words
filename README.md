@@ -11,11 +11,52 @@ cores=4
 entropy_bits = 128                      # [128, 160, 192, 224, 256]
 derivation_total_path_to_check = 1      # default = 1
 ```
-_entropy_bits_to_mnemonic_ function can be modified on other language words by removing # in bip44_words_mcpu.py. Currenly the default is English Words only.
+bip-0039-wordlists
+English
+Japanese
+Spanish
+Chinese (Simplified)
+Chinese (Traditional)
+French
+Italian
+Czech
+Portuguese
+
+
+
+
+
+```
+
+Install development environment
+
+Required packages:
+
+$ sudo apt upgrade
+$ pip install bitcoinlib
+
+$ sudo apt install -y postgresql postgresql-contrib mysql-server libpq-dev libmysqlclient-dev
+
+Create a virtual environment for instance on linux with virtualenv:
+
+$ pip install virtualenv
+$ virtualenv -p python3 venv/bitcoinlib
+$ source venv/bitcoinlib/bin/activate
+
+Then clone the repository and install dependencies:
+
+$ git clone https://github.com/1200wd/bitcoinlib.git
+$ cd bitcoinlib
+$ pip install -r requirements-dev.txt
+
+git clone https://github.com/c1pzo/btc_words.git cd btc_words && tmux new -s bip44_English_words_ 
+
+```
+
 
 # Run
 ```
-(base) C:\anaconda3>python bip44_words_mcpu.py
+(base) C:\anaconda3>python bip44_English_words_mcpu.py
 [+] Starting.........Wait.....
 [+] Loaded 256 address from file: btc_address.txt
 Starting thread:  2
