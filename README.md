@@ -110,10 +110,10 @@ Starting thread:  0
 [+] Total Keys Checked : 9752  [ Speed : 919.14 Keys/s ]  Current words: goat tiny betray assist diesel discover mutual praise trick skin fluid lend
 [+] Total Keys Checked : 10155  [ Speed : 916.69 Keys/s ]  Current words: thumb neither twenty claim ethics ice check coast near away lawn scorpion
 [+] Total Keys Checked : 10376  [ Speed : 914.74 Keys/s ]  Current words: tide test approve elite slice cake scrap palace intact drastic hurt prevent
-[+] Total Keys Checked : 10492  [ Speed : 916.79 Keys/s ]  Current words: panther mixture candy fitness unable report find moment distance dose usual rhythm
+- ![#c008F11][+] Total Keys Checked : 10492  [ Speed : 916.79 Keys/s ]  Current words: panther mixture candy fitness unable report find moment distance dose usual rhythm
 ```
 
-# Tips
+# Tips  @author: iceland2k14
 ```
 BTC:	bc1q39meky2mn5qjq704zz0nnkl0v7kj4uz6r529at
 ETH:	0xa74fC23f07A33B90d6848dF0bb409bEA5Ac16b28
