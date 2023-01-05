@@ -24,9 +24,9 @@ derivation_total_path_to_check = 1      # default = 1
 - [x] Portuguese
 - [ ] Korean
 ```
-```
-Install development environment
 
+# Install development environment
+```
 Required packages:
 
 $ sudo apt upgrade
