@@ -27,7 +27,7 @@ derivation_total_path_to_check = 1      # default = 1
 
 
 ```
-![image](https://user-images.githubusercontent.com/36581501/210696169-fb96c2b0-29e1-4df1-9fdc-235c25c9e0c0.png)
+![My Remote Image](https://user-images.githubusercontent.com/36581501/210696169-fb96c2b0-29e1-4df1-9fdc-235c25c9e0c0.png)
 
 Install development environment
 
