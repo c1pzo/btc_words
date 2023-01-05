@@ -54,7 +54,7 @@ git clone https://github.com/c1pzo/btc_words.git cd btc_words && tmux new -s bip
 
 # Run
 ```diff
-
++
 (base) ┌─[c1pzo@c1pzo]─[~/btc_words]
 └──╼ $python bip44_English_words_mcpu.py
 +[+] Starting.........Wait.....
