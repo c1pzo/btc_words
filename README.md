@@ -11,6 +11,7 @@ cores=4
 entropy_bits = 128                      # [128, 160, 192, 224, 256]
 derivation_total_path_to_check = 1      # default = 1
 ```
+```
 ### Bip-0039-wordlists
 - [x] English 
 - [x] Japanese
@@ -27,7 +28,7 @@ derivation_total_path_to_check = 1      # default = 1
 
 
 
-![My Remote Image](https://user-images.githubusercontent.com/36581501/210696169-fb96c2b0-29e1-4df1-9fdc-235c25c9e0c0.png)
+
 ```
 Install development environment
 
