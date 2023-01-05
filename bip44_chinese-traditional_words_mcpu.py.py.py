@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Usage :
- > python bip44_chinese_t_words_mcpu.py
+ > python bip44_chinese-traditional_words_mcpu.py
  
 @author: iceland
 """
