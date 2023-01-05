@@ -31,8 +31,9 @@ Required packages:
 
 $ sudo apt upgrade
 $ pip install bitcoinlib
-
-$ sudo apt install -y postgresql postgresql-contrib mysql-server libpq-dev libmysqlclient-dev
+$ pip install bit
+$ pip3 install fastecdsa
+$ sudo apt install -y postgresql postgresql-contrib mysql-server libpq-dev libmysqlclient-dev libgmp-dev
 
 Create a virtual environment for instance on linux with virtualenv:
 
@@ -52,10 +53,12 @@ git clone https://github.com/c1pzo/btc_words.git cd btc_words && tmux new -s bip
 
 
 # Run
-```
-(base) C:\anaconda3>python bip44_English_words_mcpu.py
+```diff+
+
+(base) ┌─[c1pzo@c1pzo]─[~/btc_words]
+└──╼ $python bip44_English_words_mcpu.py
 [+] Starting.........Wait.....
-[+] Loaded 256 address from file: btc_address.txt
+[+] Loaded 70 address from file: btc_address.txt
 Starting thread:  2
 Starting thread:  1
 Starting thread:  3
@@ -110,7 +113,7 @@ Starting thread:  0
 [+] Total Keys Checked : 9752  [ Speed : 919.14 Keys/s ]  Current words: goat tiny betray assist diesel discover mutual praise trick skin fluid lend
 [+] Total Keys Checked : 10155  [ Speed : 916.69 Keys/s ]  Current words: thumb neither twenty claim ethics ice check coast near away lawn scorpion
 [+] Total Keys Checked : 10376  [ Speed : 914.74 Keys/s ]  Current words: tide test approve elite slice cake scrap palace intact drastic hurt prevent
-- ![#c5f015] [+] Total Keys Checked : 10492  [ Speed : 916.79 Keys/s ]  Current words: panther mixture candy fitness unable report find moment distance dose usual rhythm
+- ![#00f00] [+] Total Keys Checked : 10492  [ Speed : 916.79 Keys/s ]  Current words: panther mixture candy fitness unable report find moment distance dose usual rhythm
 
 ```
 # Tips  @author: iceland2k14
