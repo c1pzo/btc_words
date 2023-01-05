@@ -11,17 +11,17 @@ cores=4
 entropy_bits = 128                      # [128, 160, 192, 224, 256]
 derivation_total_path_to_check = 1      # default = 1
 ```
-###Bip-0039-wordlists
-- [x] English
-- [x]Japanese
-- [x]Spanish
-- [x]Chinese (Simplified)
-- [x]Chinese (Traditional)
-- [x]French
-- [x]Italian
-- [x]Czech
-- [x]Portuguese
-- [ ]Korean
+### Bip-0039-wordlists
+- [x] English 
+- [x] Japanese
+- [x] Spanish
+- [x] Chinese (Simplified)
+- [x] Chinese (Traditional)
+- [x] French
+- [x] Italian
+- [x] Czech
+- [x] Portuguese
+- [ ] Korean
 
 
 
